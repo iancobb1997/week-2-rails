@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'warden', '~> 1.2', '>= 1.2.7'
 end
 
 group :development do
@@ -55,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', '~> 3.5'
 gem 'capybara', '~> 2.13'
 gem 'rails-controller-testing'
+gem 'devise', '~> 4.3'
